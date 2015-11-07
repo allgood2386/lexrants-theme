@@ -11,10 +11,10 @@
     "minimum-stability": "dev",
     "type": "package",
     "require": {
-        "twitter/bootstrap": "~3.3@dev"
+        "twbs/bootstrap": "~3.3@dev"
     },
     "scripts": {
-        "post-update-cmd": "rsync -r vendor/twitter/bootstrap/ . --exclude=composer.json --exclude=.git/",
-        "post-update-cmd": "npm install"
+        "post-update-cmd": "rsync -r vendor/twbs/bootstrap/ . --exclude=composer.json --exclude=.git/ && echo vendor/ >> .gitignore",
+        "post-install-cmd": "rsync -r vendor/twbs/bootstrap/ . --exclude=composer.json --exclude=.git/ && echo vendor/ >> .gitignore"
     }
 }
