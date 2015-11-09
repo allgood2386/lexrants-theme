@@ -14,7 +14,7 @@
         "twbs/bootstrap": "~3.3@dev"
     },
     "scripts": {
-        "post-update-cmd": "rsync -r vendor/twbs/bootstrap/ . --exclude=composer.json --exclude=docs/ --exclude=.git/ && echo vendor/ >> .gitignore",
-        "post-install-cmd": "rsync -r vendor/twbs/bootstrap/ . --exclude=composer.json --exclude=docs/ --exclude=.git/ && echo vendor/ >> .gitignore"
+        "post-update-cmd": "rsync -r vendor/twbs/bootstrap/ bootstrap --exclude=.git/",
+        "post-install-cmd": "rsync -r vendor/twbs/bootstrap/ bootstrap --exclude=.git/"
     }
 }
