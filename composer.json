@@ -9,7 +9,7 @@
             "role": "Developers"
         }],
     "minimum-stability": "dev",
-    "type": "package",
+    "type": "drupal-module",
     "require": {
         "twbs/bootstrap": "~3.3@dev"
     },
