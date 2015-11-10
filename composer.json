@@ -2,7 +2,7 @@
     "name": "taoti/taoti-bootstrap",
     "description": "A Barebones Bootstrap theme for Drupal 8",
     "license": "MIT",
-    "type": "drupal-custom-theme",
+    "type": "custom-theme",
     "authors": [{
             "name": "Rich Allen",
             "email": "rallen@taoti.com",
