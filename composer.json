@@ -9,7 +9,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "type": "package",
+    "type": "drupal-custom-theme",
     "require": {
         "twbs/bootstrap": "~3.3@dev"
     },
