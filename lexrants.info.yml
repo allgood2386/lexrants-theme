@@ -1,11 +1,11 @@
-name: Taoti Bootstrap
+name: Lexrants
 description: A Barebones Bootstrap Theme
 type: theme
 core: 8.x
 
 libraries:
-  - lexrants_theme/global-css
-  - lexrants_theme/global-js
+  - lexrants/global-css
+  - lexrants/global-js
 
 #libraries-override:
   # Replace an entire library
